@@ -15,6 +15,8 @@ Steps to run this application:
  
 3.) Create an account on MongoDB Atlas and paste the connection string and your database password in the config.env as shown above
 
+3.1.) Download and install MongoDB and Mongo shell and connect to database locally
+
 
 4.) Run this command in terminal: node utils/import-dev-data.js --import
 
