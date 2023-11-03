@@ -4,7 +4,7 @@ Examination system created using node.js, express.js and mongoDB with mongoose
 Steps to run this application: 
 
 
-1.) In terminal, run npm init	
+1.) In terminal, run npm i	
 
 
 2.) Create config.env file in the root directory and populate it the way its shown in picture below	
