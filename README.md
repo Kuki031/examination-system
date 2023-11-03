@@ -10,7 +10,7 @@ Steps to run this application:
 2.) Create config.env file in the root directory and populate it the way its shown in picture below	
 
 
-	![1](https://github.com/Kuki031/examination-system/assets/131341818/5976f948-ff21-4900-b25f-08dad961bd56)
+![1](https://github.com/Kuki031/examination-system/assets/131341818/5976f948-ff21-4900-b25f-08dad961bd56)
 
  
 3.) Create an account on MongoDB Atlas and paste the connection string and your database password in the config.env as shown above
