@@ -1,0 +1,13 @@
+extends base
+block content
+    input.search__input(type="text" placeholder="Search for subjects" autocomplete="off")
+    .main__div
+        each subject,i in subjects
+            .main__card(style=`background-image: url('/img/subjects/${subject.photo[0]}.jpg')`)
+                div
+                    p.p__card= `${subject.name}`
+                    p.p__card= `Semester: ${subject.semester}.`
+                    if user
+                        a.a__details(href= `/subjects/${subject.slug}`) Details
+                    else
+                        a.a__details(href= `/log-in`) Log in to see details

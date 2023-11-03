@@ -1,0 +1,22 @@
+extends base
+block content
+    .create-test
+        .lockValue
+            h2= `New test for ${subject.name}`
+            p(style="color:crimson;")= `Subject id:`
+                span#subId(style="color:crimson;")= subject.id
+                span#userCreateId(style="display:none")= user.id
+            label.label-test(for="Test name") Test name
+            input.create-test-inputs#testName(type="text" placeholder="Your test name here...")
+            label.label-test(for="Number of questions") Questions
+        .questions--div
+        .lockValue
+            button#addQ + Add question
+            label.label-test(for="Max points total") Maximum amount of points for this test
+            input.create-test-inputs#maxPoints(type="number")
+            label.label-test(for="Min points total") Minimum amount of points required for passing the test
+            input.create-test-inputs#minPoints(type="number")
+            div.val
+                p Lock test?
+                input.create-test-inputs#isLockedCreation(type="checkbox")
+            button.createTestBtn#createTestBtn= `Create test for ${subject.name}`

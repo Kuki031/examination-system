@@ -1,0 +1,7 @@
+extends base
+block content
+    .login__div
+        form.login__form
+            input.reg#email(type="text" placeholder="email@example.com" autocomplete="off" autocapitalize="off")
+            input.reg#password(type="password" placeholder="●●●●●●●●●●●" autocomplete="off" autocapitalize="off")
+            button.reg.loginBtn= `Log in`

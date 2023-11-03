@@ -1,0 +1,26 @@
+extends base
+block content
+    .create-test
+        .lockValue
+            span#userId(style="display:none")= `${user.id}`
+            h2= `${test.testName}`
+            p(style="display:none;")= `Test id:`
+                span#testId= test.id
+            label.label-test(for="Test name") Test name
+            input.create-test-inputs#testName(type="text" placeholder="Your test name here..." value=`${test.testName}`)
+            label.label-test(for="Number of questions") Questions
+        .questions-edit-div
+            each question,i in test.questions
+                input.questions-edit(type="text" placeholder=`Question` value=`${test.questions[i]}`)
+                button.removeQ-edit Remove question
+        .lockValue
+            button#addQ-edit + Add question
+            label.label-test(for="Max points total") Maximum amount of points for this test
+            input.create-test-inputs#maxPoints(type="number" value=`${test.maxPoints}`)
+            label.label-test(for="Min points total") Minimum amount of points required for passing the test
+            input.create-test-inputs#minPoints(type="number" value=`${test.minPoints}`)
+            .val
+                p(style="color:rgb(247, 237, 237)") Lock test?
+                input.create-test-inputs#locked(type="checkbox") 
+        button.createTestBtn#updateTestBtn= `Save changes`
+        button.createTestBtn#deleteTest= `Delete test`
