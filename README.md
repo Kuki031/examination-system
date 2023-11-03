@@ -9,16 +9,27 @@ Steps to run this application:
 
 2.) Create config.env file in the root directory and populate it the way below
 	NODE_ENV=development
+ 
 	DB_CONNECT=YOUR_MONGODB_CONNECTION_STRING
+ 
 	DB_PASSWORD=YOUR_MONGODB_PASSWORD
+ 
 	LOCALHOST=127.0.0.1
+ 
 	PORT=8080
+ 
 	JWT_SECRET=YOUR_JWT_SECRET
+ 
 	JWT_EXPIRES_IN=90d
+ 
 	JWT_COOKIE_EXPIRES_IN=90
+ 
 	EMAIL_HOST=smtp.mailtrap.io
+ 
 	EMAIL_PORT=587
+ 
 	EMAIL_USERNAME=YOUR_MAILTRAP_USERNAME
+ 
 	EMAIL_PASSWORD=YOUR_MAILTRAP_PASSWORD
 
  
@@ -37,7 +48,7 @@ Steps to run this application:
 
 You can use Postman and test the API
 
-	API documentation: https://documenter.getpostman.com/view/29068541/2s9YXe84q6
+API documentation: https://documenter.getpostman.com/view/29068541/2s9YXe84q6
 
 
 This application allows you to sign up and log in.
