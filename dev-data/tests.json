@@ -1,0 +1,194 @@
+[
+    {
+        "_id": "65257ece38d32281bff58ca8",
+        "testName": "DEMO: History of Rome Test",
+        "questions": [
+            "When was Rome founded?",
+            "Who were the first Romans?",
+            "How old is Roman history?"
+        ],
+        "maxPoints": 3,
+        "minPoints": 1,
+        "subject": "65258047842a4f2d68411bdf"
+    },
+    {
+        "_id": "65257ece38d32281bff58ca9",
+        "testName": "DEMO: Geography Test",
+        "questions": [
+            "What is equator?",
+            "What are meridians?",
+            "How tall is Mt.Everest?"
+        ],
+        "maxPoints": 3,
+        "minPoints": 1,
+        "subject": "65258047842a4f2d68411be0"
+    },
+    {
+        "_id": "65257ece38d32281bff58caa",
+        "testName": "DEMO: History of Medieval Era Test",
+        "questions": [
+            "What are dark ages?",
+            "Who was William Wallace?",
+            "What are the three main periods of the medieval ages?"
+        ],
+        "maxPoints": 3,
+        "minPoints": 1,
+        "subject": "65258047842a4f2d68411be1"
+    },
+    {
+        "_id": "65257ece38d32281bff58cab",
+        "testName": "DEMO: Basic Programming Test",
+        "questions": [
+            "What is the purpose of a variable in programming, and how do you declare one in a commonly used programming language?",
+            "Explain the difference between a for loop and a while loop, and provide an example of when you might use each type of loop.",
+            "In the context of programming, what is conditional branching, and how is it implemented using if statements? Provide a simple code example to illustrate its usage."
+        ],
+        "maxPoints": 3,
+        "minPoints": 1,
+        "subject": "65258047842a4f2d68411be2"
+    },
+    {
+        "_id": "65257ece38d32281bff58cac",
+        "testName": "DEMO: Basic Economy Test",
+        "questions": [
+            "What is the fundamental concept of supply and demand in economics, and how does it impact the prices of goods and services?",
+            "Explain the concept of opportunity cost in economic decision-making and provide an example to illustrate its importance.",
+            "What are the three primary economic systems, and what are their key characteristics? Provide a brief description of each."
+        ],
+        "maxPoints": 3,
+        "minPoints": 1,
+        "subject": "65258047842a4f2d68411bde"
+    },
+    {
+        "_id": "65257ece38d32281bff58cad",
+        "testName": "DEMO: Mediocre Programming Test",
+        "questions": [
+            "What is code duplication, and why is it considered a mediocre programming practice? How can it be avoided or refactored?",
+            "Explain the term magic numbers in programming and why they are discouraged. How can you improve code readability when dealing with constants and values?",
+            "What is spaghetti code, and why is it a problem in software development? Provide an example of how code can become tangled and difficult to maintain, and suggest a better approach."
+        ],
+        "maxPoints": 3,
+        "minPoints": 1,
+        "subject": "65258047842a4f2d68411be5"
+    },
+    {
+        "_id": "65257ece38d32281bff58cae",
+        "testName": "DEMO: History of Modern Era Test",
+        "questions": [
+            "What major events and innovations characterize the Industrial Revolution in the 18th and 19th centuries, and how did it transform society and the economy?",
+            "Describe the causes and consequences of World War I, and explain how it contributed to the reshaping of global politics and alliances in the early 20th century.",
+            "How did the Cold War between the United States and the Soviet Union impact international relations and conflicts during the 20th century, and what were some key events of this period?"
+        ],
+        "maxPoints": 3,
+        "minPoints": 1,
+        "subject": "65258047842a4f2d68411be4"
+    },
+    {
+        "_id": "65257ece38d32281bff58caf",
+        "testName": "DEMO: Basic Data Visualization Test",
+        "questions": [
+            "What are the primary types of data visualizations, and when is it appropriate to use a bar chart, a line chart, and a pie chart to represent data?",
+            "Explain the concept of data labels in data visualization. How can they enhance the clarity and understanding of a chart or graph?",
+            "When creating a data visualization, what are the key principles to consider in terms of color choice, axis labeling, and data scaling to ensure the information is effectively communicated to the audience?"
+        ],
+        "maxPoints": 3,
+        "minPoints": 1,
+        "subject": "65258047842a4f2d68411be6"
+    },
+    {
+        "_id": "65257ece38d32281bff58cb0",
+        "testName": "DEMO: Advanced Programming Test",
+        "questions": [
+            "What is a design pattern in software development, and can you provide an example of how the Singleton design pattern is used in practice?",
+            "Explain the concept of multithreading and why it's important in advanced programming. How can you handle synchronization and prevent race conditions in a multithreaded environment?",
+            "What is the role of data structures in advanced programming, and how do you choose the most appropriate data structure for a specific problem or task? Provide an example of a real-world scenario and the corresponding data structure choice."
+        ],
+        "maxPoints": 3,
+        "minPoints": 1,
+        "subject": "65258047842a4f2d68411be7"
+    },
+    {
+        "_id": "65257ece38d32281bff58cb1",
+        "testName": "DEMO: Philosophy Test",
+        "questions": [
+            "What is the concept of the social contract in political philosophy, and how has it influenced modern democratic societies?",
+            "Explain the trolley problem, a thought experiment in ethics. What does it reveal about moral decision-making, and are there any common solutions or approaches to this dilemma?",
+            "What is the philosophical concept of determinism, and how does it relate to the debate about free will and determinism in the field of metaphysics?"
+        ],
+        "maxPoints": 3,
+        "minPoints": 1,
+        "subject": "65258047842a4f2d68411be8"
+    },
+    {
+        "_id": "65257ece38d32281bff58cb2",
+        "testName": "DEMO: Marketing Test",
+        "questions": [
+            "What is the difference between market segmentation and targeting in marketing, and why are these concepts important for developing effective marketing strategies?",
+            "Describe the concept of the marketing mix (the 4Ps). What are the four components, and how do they contribute to a company's marketing efforts?",
+            "How does digital marketing differ from traditional marketing, and what are some key digital marketing channels and strategies used by businesses to reach their target audience in the digital age?"
+        ],
+        "maxPoints": 3,
+        "minPoints": 1,
+        "subject": "65258047842a4f2d68411be9"
+    },
+    {
+        "_id": "65257ece38d32281bff58cb3",
+        "testName": "DEMO: Basic Machine Learning Test",
+        "questions": [
+            "What is the main difference between supervised and unsupervised learning in machine learning, and can you provide an example of an application for each?",
+            "What is overfitting in machine learning, and how can it be prevented or mitigated when training a model?",
+            "Explain the concept of feature engineering in machine learning. How does it impact the performance of a machine learning model, and can you provide an example of a feature engineering technique?"
+        ],
+        "maxPoints": 3,
+        "minPoints": 1,
+        "subject": "65258047842a4f2d68411bea"
+    },
+    {
+        "_id": "65257ece38d32281bff58cb4",
+        "testName": "DEMO: English Literature Test",
+        "questions": [
+            "In Shakespeare's play Romeo and Juliet, what are the main themes explored, and how do they contribute to the tragic outcome of the story?",
+            "What is the significance of the Byronic hero in Romantic literature, and can you provide an example of a literary character that embodies these characteristics?",
+            "Explain the concept of stream of consciousness in the context of modernist literature. How does it influence narrative style and storytelling in works like James Joyce's Ulysses?"
+        ],
+        "maxPoints": 3,
+        "minPoints": 1,
+        "subject": "65258047842a4f2d68411beb"
+    },
+    {
+        "_id": "65257ece38d32281bff58cb5",
+        "testName": "DEMO: Basic Chemistry Test",
+        "questions": [
+            "What is the difference between an element and a compound in chemistry? Provide examples of each.",
+            "Describe the fundamental difference between an acid and a base. How is the pH scale used to measure their acidity or alkalinity?",
+            "What is the concept of chemical bonding, and how do covalent and ionic bonds differ in terms of electron sharing and transfer? Provide examples of compounds formed by each type of bond."
+        ],
+        "maxPoints": 3,
+        "minPoints": 1,
+        "subject": "65258047842a4f2d68411bec"
+    },
+    {
+        "_id": "65257ece38d32281bff58cb6",
+        "testName": "DEMO: Advanced Machine Learning Test",
+        "questions": [
+            "What are deep neural networks, and how do they differ from traditional neural networks? Explain the concept of deep learning and provide an example of a real-world application.",
+            "Describe the concept of transfer learning in machine learning. How does it work, and what are the advantages of using pre-trained models for various tasks?",
+            "What is the role of reinforcement learning in advanced machine learning? Provide an example of a problem where reinforcement learning techniques are commonly applied and explain how they work."
+        ],
+        "maxPoints": 3,
+        "minPoints": 1,
+        "subject": "65258047842a4f2d68411bed"
+    },
+    {
+        "_id": "65257ece38d32281bff58cb7",
+        "testName": "DEMO: Sys Administration Test",
+        "questions": [
+            "What is the role of an SSH (Secure Shell) in system administration, and how does it enhance the security of remote server management?",
+            "Explain the concept of system backups in system administration. What types of backups are commonly used, and why is regular backup important for data protection?",
+            "What is the purpose of a firewall in network and system administration, and how does it help secure a computer network? Describe the key differences between a hardware firewall and a software firewall."
+        ],
+        "maxPoints": 3,
+        "minPoints": 1,
+        "subject": "65258047842a4f2d68411be3"
+    }
+]

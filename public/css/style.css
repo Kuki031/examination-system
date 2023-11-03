@@ -1,0 +1,917 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: 'Tilt Neon', sans-serif;*/
+    font-family: 'Gabarito', sans-serif;
+}
+
+body {
+    background-image: url('/img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Landing page*/
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(31, 30, 30);
+    opacity: 0.9;
+}
+
+
+.header-el {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.header-el a {
+    display: inline-flex;
+    color: rgb(248, 248, 248);
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    transition: .2s;
+    font-weight: bolder;
+}
+
+.header-el>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.a-head:hover {
+    background-color: rgba(238, 47, 47, 0.568);
+    transform: scale(0.9);
+}
+
+.logo>p {
+    display: block;
+    transition: .2s;
+    border-radius: 0 20% 0 20%;
+    font-family: 'Merienda', cursive;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 65px;
+}
+
+.search__input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgba(8, 8, 8, 0.74);
+    color: rgb(248, 248, 248);
+    border-radius: 10px;
+    font-family: 'Merienda', cursive;
+}
+
+.search__input::placeholder {
+    text-align: center;
+    color: rgb(248, 248, 248);
+}
+
+.main__div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 2%;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.main__card {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 10px 10px rgba(8, 8, 8, 0.74);
+    animation: fadeIn 1s;
+}
+
+.main__card>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: rgba(8, 8, 8, 0.74);
+    width: 100%;
+}
+
+
+.p__card {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: center;
+    font-size: 27px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+}
+
+.a__details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 27px;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .2s;
+    font-weight: lighter;
+    background-color: rgba(238, 47, 47, 0.568);
+}
+
+.a__details:hover {
+    color: rgb(0, 0, 0);
+    color: rgb(248, 248, 248);
+    background-color: rgba(95, 233, 15, 0.568);
+    transform: scale(0.9);
+}
+
+img {
+    width: 500px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*Separate subject page*/
+.main__subject {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-height: 100%;
+    animation: fadeIn 1s;
+}
+
+.main__info {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(34, 33, 33, 0.918);
+    flex-direction: column;
+    box-shadow: 10px 10px 10px 10px rgba(8, 8, 8, 0.74);
+    width: 60%;
+}
+
+.main__info>h1,
+h2,
+h3,
+h4 {
+    display: block;
+    margin: 20px;
+    color: rgb(247, 237, 237);
+}
+
+
+.desc {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    line-height: 30px;
+    background-color: rgba(34, 33, 33, 0.897);
+    box-shadow: 10px 10px 10px 10px rgba(8, 8, 8, 0.74);
+    margin: 20px;
+    padding: 10px;
+}
+
+.desc>p {
+    color: rgb(247, 237, 237);
+    margin: 5px;
+}
+
+.a-test {
+    transition: .2s;
+}
+
+.a-test:hover {
+    background-color: rgba(238, 47, 47, 0.568);
+}
+
+.teacher__link {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(247, 237, 237);
+    transition: .2s;
+    margin: 5px;
+}
+
+.teacher__link:hover {
+    color: rgba(238, 47, 47, 0.568);
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(247, 237, 237);
+    transition: .2s;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(238, 47, 47, 0.788);
+}
+
+.back:hover {
+    transform: scale(0.9);
+}
+
+/*Teacher and assistant bio page*/
+
+.main__teacher {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    max-width: 780px;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 1%;
+    background-color: rgba(34, 33, 33, 0.897);
+    box-shadow: 10px 10px 10px 10px rgba(8, 8, 8, 0.74);
+    padding: 10px;
+    animation: fadeIn 1s;
+}
+
+.main__teacher>.teacher__pic {
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    border: 5px solid rgba(245, 237, 237, 0.836);
+}
+
+.main__teacher>.teacher__info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    flex-direction: column;
+    line-height: 30px;
+    color: rgb(247, 237, 237);
+    padding: 20px;
+}
+
+.subjects__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.subjects__list>a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(247, 237, 237);
+    transition: .2s;
+
+}
+
+.subjects__list>a:hover {
+    color: rgba(238, 47, 47, 0.568);
+}
+
+/*Teachers*/
+
+.main__teacherlist {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 40%;
+    margin: auto;
+}
+
+.main__teacherlist>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(34, 33, 33, 0.897);
+    box-shadow: 10px 10px 10px 10px rgba(8, 8, 8, 0.74);
+    margin-top: 1%;
+    animation: fadeIn 1s;
+}
+
+.main__teacherlist>div>a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(247, 237, 237);
+    transition: .2s;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.main__teacherlist>div>a:hover {
+    color: rgba(238, 47, 47, 0.568);
+}
+
+.onsub {
+    transition: .2s;
+}
+
+.onsub:hover {
+    transform: scale(0.9);
+}
+
+.login__div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    transition: .2s;
+    margin: 10px;
+}
+
+.login__form,
+.reg__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(34, 33, 33, 0.897);
+    box-shadow: 10px 10px 10px 10px rgba(8, 8, 8, 0.74);
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    animation: fadeIn 1s;
+}
+
+.reg {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.loginBtn {
+    cursor: pointer;
+    transition: .2s;
+    color: rgb(247, 237, 237);
+    background-color: rgba(238, 47, 47, 0.568);
+    border: none;
+}
+
+#loginBtn {
+    cursor: pointer;
+    transition: .2s;
+    color: rgb(247, 237, 237);
+    background-color: rgba(238, 47, 47, 0.568);
+    border: none;
+}
+
+.loginBtn:hover {
+    transform: scale(0.9);
+}
+
+.reg__labels {
+    color: rgb(247, 237, 237);
+    font-size: 16px;
+}
+
+.div-welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.div-welcome>p {
+    font-weight: bolder;
+    color: rgb(247, 237, 237);
+}
+
+#logOut {
+    cursor: pointer;
+}
+
+.account-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 1%;
+    animation: fadeIn 1s;
+}
+
+.my-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 1%;
+    background-color: rgba(34, 33, 33, 0.897);
+    box-shadow: 10px 10px 10px 10px rgba(8, 8, 8, 0.74);
+}
+
+.my-info>div {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.p-update {
+    margin: 5px;
+    padding: 10px;
+}
+
+#upload-photo,
+#savechanges,
+#savechangepw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: .2s;
+    border: none;
+    color: rgb(247, 237, 237);
+    background-color: rgba(238, 47, 47, 0.568);
+}
+
+.newTest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: .2s;
+    border: none;
+    color: rgb(247, 237, 237);
+    background-color: rgba(238, 47, 47, 0.568);
+}
+
+.newTest:hover {
+    transform: scale(0.9);
+}
+
+/*
+background-color: rgba(197, 30, 219, 0.568);
+*/
+
+#upload-photo:hover,
+#savechanges:hover,
+#savechangepw:hover {
+    transform: scale(0.9);
+}
+
+.my-subs {
+    display: block;
+    padding: 5px;
+    transition: .2s;
+}
+
+.teacher,
+.assistant {
+    transition: .2s;
+}
+
+.teacher:hover {
+    background-color: rgba(238, 47, 47, 0.568);
+}
+
+.assistant:hover {
+    background-color: rgba(197, 30, 219, 0.568);
+}
+
+.all-students {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.student-div {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(34, 33, 33, 0.897);
+    box-shadow: 10px 10px 10px 10px rgba(8, 8, 8, 0.74);
+    animation: fadeIn 1s;
+}
+
+.student-div>p {
+    color: rgb(247, 237, 237);
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.stats-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.stats-div>div {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: rgba(34, 33, 33, 0.897);
+    box-shadow: 10px 10px 10px 10px rgba(8, 8, 8, 0.74);
+    animation: fadeIn 1s;
+    margin: 20px;
+    padding: 10px;
+}
+
+.subject-stats-p {
+    color: rgb(247, 237, 237);
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.test-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 1%;
+    animation: fadeIn 1s;
+}
+
+.test-div-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 1%;
+    animation: fadeIn 1s;
+}
+
+.test-div>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(34, 33, 33, 0.897);
+    box-shadow: 10px 10px 10px 10px rgba(8, 8, 8, 0.74);
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.test-div-list>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(34, 33, 33, 0.897);
+    box-shadow: 10px 10px 10px 10px rgba(8, 8, 8, 0.74);
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+}
+
+.test-div>div>p {
+    color: rgb(247, 237, 237);
+    padding: 10px;
+}
+
+.test-div-list>div>p {
+    color: rgb(247, 237, 237);
+    padding: 10px;
+}
+
+.create-test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: rgba(34, 33, 33, 0.897);
+    box-shadow: 10px 10px 10px 10px rgba(8, 8, 8, 0.74);
+    animation: fadeIn 1s;
+}
+
+.lockValue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+.val {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.val>p {
+    color: rgb(247, 237, 237);
+}
+
+.val>input {
+    width: 30px;
+}
+
+.create-test-inputs {
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    width: 70%;
+}
+
+.create-test-inputs::placeholder {
+    text-align: center;
+}
+
+.label-test {
+    color: rgb(247, 237, 237);
+    padding: 10px;
+}
+
+.createTestBtn,
+#addQ,
+.edit-test,
+#addQ-edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    transition: .2s;
+    border: none;
+    color: rgb(247, 237, 237);
+    background-color: rgba(238, 47, 47, 0.568);
+    text-decoration: none;
+    list-style: none;
+}
+
+.edit-test:hover,
+#addQ:hover {
+    transform: scale(0.9);
+}
+
+.createTestBtn:hover {
+    transform: scale(0.9);
+}
+
+.questions,
+.questions-edit,
+#submit-test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin: 5px;
+    padding: 10px;
+    animation: fadeIn 1s;
+}
+
+.newTest {
+    text-decoration: none;
+    list-style: none;
+}
+
+.questions--div,
+.questions-edit-div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+}
+
+.questions--div>button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 5px;
+    cursor: pointer;
+    transition: .2s;
+    border: none;
+    color: rgb(247, 237, 237);
+    background-color: rgba(238, 47, 47, 0.568);
+    text-decoration: none;
+    list-style: none;
+    width: 150px;
+}
+
+.questions-edit-div>button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 5px;
+    cursor: pointer;
+    transition: .2s;
+    border: none;
+    color: rgb(247, 237, 237);
+    background-color: rgba(238, 47, 47, 0.568);
+    text-decoration: none;
+    list-style: none;
+    width: 150px;
+}
+
+.questions--div>button:hover {
+    transform: scale(0.9);
+}
+
+.questions-edit-div>button:hover {
+    transform: scale(0.9);
+}
+
+.questions-edit-div>input {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.questions--div>input {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submitted-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+}
+
+.submitted-div>div {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+#my-tests {
+    color: rgb(247, 237, 237);
+    border: none;
+    transition: .2s;
+    cursor: pointer;
+}
+
+#submit-test {
+    color: rgb(247, 237, 237);
+    background-color: rgba(238, 10, 10, 0.829);
+    border: none;
+    transition: .2s;
+    cursor: pointer;
+}
+
+#submit-test:hover,
+#my-tests:hover {
+    transform: scale(0.9);
+    background-color: rgba(238, 47, 47, 0.568);
+}
+
+.hide-test {
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    opacity: 0.6;
+}
+
+.show-test {
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+}
+
+.my-tests-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.my-tests-div>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(34, 33, 33, 0.897);
+    box-shadow: 10px 10px 10px 10px rgba(8, 8, 8, 0.74);
+    animation: fadeIn 1s;
+    margin: 20px;
+}
+
+.my-tests-div>div>p {
+    margin: 10px;
+}
+
+.my-tests-div>div>textarea {
+    margin: 10px;
+}
+
+.grade-test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgba(34, 33, 33, 0.897);
+    box-shadow: 10px 10px 10px 10px rgba(8, 8, 8, 0.74);
+    animation: fadeIn 1s;
+    margin: 20px;
+}
+
+.grade-test>textarea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.grade-test>p {
+    margin: 10px;
+}
+
+.grade-test>div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.grade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: .2s;
+    color: rgb(247, 237, 237);
+    background-color: rgba(238, 10, 10, 0.829);
+    border: none;
+}
+
+.grade:hover {
+    transform: scale(0.9);
+}

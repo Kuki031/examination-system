@@ -1,0 +1,14 @@
+extends base
+block content
+    .test-div
+        h2(style="color: whitesmoke;color:whitesmoke;margin:10px;padding:10px;")= `Welcome to the ${test.testName}`
+        span#tId(style="display:none;")= testId
+        span#testSlug(style="display:none;")= `${test.subject}`
+        span#testName(style="display:none;")= `${test.testName}`
+        span#loggedUser(style="display:none;")= `${user.id}`
+        div
+            each question,i in test.questions
+                p.q-paragraph= `${i+1}. ${question}`
+            p(style="color:crimson;")= `Write your answers on the sheet below. After you've finished, you can click "Submit test" button on the bottom to conclude the examination.`
+        textarea#answerSheet(style="padding:20px;")(cols="100", rows="50")
+        button#submit-test Submit Test

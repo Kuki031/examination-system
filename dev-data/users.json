@@ -1,0 +1,187 @@
+[
+    {
+        "_id": "65244ef36e0422cd20d22577",
+        "firstName": "Toni",
+        "lastName": "Tonic",
+        "pin": "23363633513",
+        "email": "toni@example.com",
+        "password": "testpass123456",
+        "passwordRepeat": "testpass123456",
+        "photo": "Photo is not provided.",
+        "phoneNumber": "1313352214",
+        "role": "admin",
+        "isActive": true,
+        "subjects": []
+    },
+    {
+        "_id": "652451bc7e2b768eb6fefae0",
+        "firstName": "Mark",
+        "lastName": "Markson",
+        "pin": "23363633213",
+        "email": "mark@example.com",
+        "password": "testpass123456",
+        "passwordRepeat": "testpass123456",
+        "photo": "user-1",
+        "phoneNumber": "5313352214",
+        "role": "assistant",
+        "isActive": true,
+        "subjects": [
+            "65258047842a4f2d68411bdf",
+            "65258047842a4f2d68411be0",
+            "65258047842a4f2d68411be2",
+            "65258047842a4f2d68411bde",
+            "65258047842a4f2d68411be4",
+            "65258047842a4f2d68411be6",
+            "65258047842a4f2d68411be8",
+            "65258047842a4f2d68411be9",
+            "65258047842a4f2d68411beb",
+            "65258047842a4f2d68411bec",
+            "65258047842a4f2d68411be3"
+        ]
+    },
+    {
+        "_id": "6524537038f8385756f80faa",
+        "firstName": "Theodor",
+        "lastName": "Theodorson",
+        "pin": "26363633213",
+        "email": "theodor@example.com",
+        "password": "testpass123456",
+        "passwordRepeat": "testpass123456",
+        "photo": "user-2",
+        "phoneNumber": "5313352213",
+        "role": "assistant",
+        "isActive": true,
+        "subjects": [
+            "65258047842a4f2d68411bdf",
+            "65258047842a4f2d68411be1",
+            "65258047842a4f2d68411be2",
+            "65258047842a4f2d68411be5",
+            "65258047842a4f2d68411be4",
+            "65258047842a4f2d68411be7",
+            "65258047842a4f2d68411be8",
+            "65258047842a4f2d68411bea",
+            "65258047842a4f2d68411beb",
+            "65258047842a4f2d68411bed"
+        ]
+    },
+    {
+        "_id": "6524537e38f8385756f80fac",
+        "firstName": "Ann",
+        "lastName": "Annson",
+        "pin": "26373633213",
+        "email": "ann@example.com",
+        "password": "testpass123456",
+        "passwordRepeat": "testpass123456",
+        "photo": "user-3",
+        "phoneNumber": "5313382213",
+        "role": "assistant",
+        "isActive": true,
+        "subjects": [
+            "65258047842a4f2d68411be0",
+            "65258047842a4f2d68411be1",
+            "65258047842a4f2d68411bde",
+            "65258047842a4f2d68411be5",
+            "65258047842a4f2d68411be6",
+            "65258047842a4f2d68411be7",
+            "65258047842a4f2d68411be9",
+            "65258047842a4f2d68411bea",
+            "65258047842a4f2d68411bec",
+            "65258047842a4f2d68411bed",
+            "65258047842a4f2d68411be3"
+        ]
+    },
+    {
+        "_id": "6524539338f8385756f80fae",
+        "firstName": "Steven",
+        "lastName": "Stevenson",
+        "pin": "26374633213",
+        "email": "steven@example.com",
+        "password": "testpass123456",
+        "passwordRepeat": "testpass123456",
+        "photo": "user-4",
+        "phoneNumber": "5413382213",
+        "role": "teacher",
+        "isActive": true,
+        "subjects": [
+            "65258047842a4f2d68411bdf",
+            "65258047842a4f2d68411be3"
+        ]
+    },
+    {
+        "_id": "652453a638f8385756f80fb0",
+        "firstName": "Matt",
+        "lastName": "Mattson",
+        "pin": "26374663213",
+        "email": "matt@example.com",
+        "password": "testpass123456",
+        "passwordRepeat": "testpass123456",
+        "photo": "user-5",
+        "phoneNumber": "9413382213",
+        "role": "teacher",
+        "isActive": true,
+        "subjects": [
+            "65258047842a4f2d68411be0",
+            "65258047842a4f2d68411beb",
+            "65258047842a4f2d68411bec",
+            "65258047842a4f2d68411bed"
+        ]
+    },
+    {
+        "_id": "652453bd38f8385756f80fb2",
+        "firstName": "Stephen",
+        "lastName": "Stephenson",
+        "pin": "66374663213",
+        "email": "stephen@example.com",
+        "password": "testpass123456",
+        "passwordRepeat": "testpass123456",
+        "photo": "user-6",
+        "phoneNumber": "3413382213",
+        "role": "teacher",
+        "isActive": true,
+        "subjects": [
+            "65258047842a4f2d68411be1",
+            "65258047842a4f2d68411be7",
+            "65258047842a4f2d68411be8",
+            "65258047842a4f2d68411be9",
+            "65258047842a4f2d68411bea"
+        ]
+    },
+    {
+        "_id": "6524546538f8385756f80fbf",
+        "firstName": "Andy",
+        "lastName": "Andynson",
+        "pin": "16134623123",
+        "email": "andy@example.com",
+        "password": "testpass123456",
+        "passwordRepeat": "testpass123456",
+        "photo": "user-7",
+        "phoneNumber": "4213322213",
+        "role": "teacher",
+        "isActive": true,
+        "subjects": [
+            "65258047842a4f2d68411be2",
+            "65258047842a4f2d68411bde",
+            "65258047842a4f2d68411be5"
+        ]
+    },
+    {
+        "_id": "6524548938f8385756f80fc1",
+        "firstName": "Peter",
+        "lastName": "Peterson",
+        "pin": "12613462123",
+        "email": "peter@example.com",
+        "password": "testpass123456",
+        "passwordRepeat": "testpass123456",
+        "photo": "user-8",
+        "phoneNumber": "4212322213",
+        "role": "teacher",
+        "isActive": true,
+        "subjects": [
+            "65258047842a4f2d68411be4",
+            "65258047842a4f2d68411be6",
+            "65258047842a4f2d68411be8",
+            "65258047842a4f2d68411be9",
+            "65258047842a4f2d68411bea"
+        ]
+    }
+]

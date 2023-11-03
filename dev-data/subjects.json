@@ -1,0 +1,309 @@
+[
+    {
+        "_id": "65258047842a4f2d68411bdf",
+        "name": "History of Rome",
+        "semester": 1,
+        "teachers": [
+            "6524539338f8385756f80fae"
+        ],
+        "assistants": [
+            "652451bc7e2b768eb6fefae0",
+            "6524537038f8385756f80faa"
+        ],
+        "points": 5,
+        "isRequired": true,
+        "photo": [
+            "rome",
+            "rome1"
+        ],
+        "description": "History of Rome will be taught in the first semester. Student has to pass atleast three tests during the semester to get points."
+    },
+    {
+        "_id": "65258047842a4f2d68411be0",
+        "name": "Geography",
+        "semester": 1,
+        "teachers": [
+            "652453a638f8385756f80fb0"
+        ],
+        "assistants": [
+            "6524537e38f8385756f80fac",
+            "652451bc7e2b768eb6fefae0"
+        ],
+        "points": 5,
+        "isRequired": true,
+        "photo": [
+            "geo",
+            "geo1"
+        ],
+        "description": "Basic geography will be taught in the first semester. Student has to pass atleast two tests during the semester to get points."
+    },
+    {
+        "_id": "65258047842a4f2d68411be1",
+        "name": "History of Medieval Era",
+        "semester": 2,
+        "teachers": [
+            "652453bd38f8385756f80fb2"
+        ],
+        "assistants": [
+            "6524537038f8385756f80faa",
+            "6524537e38f8385756f80fac"
+        ],
+        "points": 6,
+        "isRequired": true,
+        "photo": [
+            "medieval",
+            "medieval1"
+        ],
+        "description": "History of Medieval Era will be taught in the second semester. Student has to pass atleast four tests during the semester to get points."
+    },
+    {
+        "_id": "65258047842a4f2d68411be2",
+        "name": "Basic Programming",
+        "semester": 2,
+        "teachers": [
+            "6524546538f8385756f80fbf"
+        ],
+        "assistants": [
+            "652451bc7e2b768eb6fefae0",
+            "6524537038f8385756f80faa"
+        ],
+        "points": 6,
+        "isRequired": true,
+        "photo": [
+            "basicprog",
+            "basicprog1"
+        ],
+        "description": "Basic programming will be taught in the second semester. Student has to pass atleast five tests during the semester to get points."
+    },
+    {
+        "_id": "65258047842a4f2d68411bde",
+        "name": "Basic Economy",
+        "semester": 2,
+        "teachers": [
+            "6524546538f8385756f80fbf"
+        ],
+        "assistants": [
+            "6524537e38f8385756f80fac",
+            "652451bc7e2b768eb6fefae0"
+        ],
+        "points": 7,
+        "isRequired": true,
+        "photo": [
+            "eco",
+            "eco1"
+        ],
+        "description": "Basic Economy will be taught in the second semester. Student has to pass atleast two tests during the semester to get points."
+    },
+    {
+        "_id": "65258047842a4f2d68411be5",
+        "name": "Mediocre Programming",
+        "semester": 3,
+        "teachers": [
+            "6524546538f8385756f80fbf"
+        ],
+        "assistants": [
+            "6524537038f8385756f80faa",
+            "6524537e38f8385756f80fac"
+        ],
+        "points": 5,
+        "isRequired": true,
+        "photo": [
+            "medprog",
+            "medprog1"
+        ],
+        "description": "Mediocre programming will be taught in the third semester. Student has to pass atleast five tests during the semester to get points."
+    },
+    {
+        "_id": "65258047842a4f2d68411be4",
+        "name": "History of Modern Era",
+        "semester": 3,
+        "teachers": [
+            "6524548938f8385756f80fc1"
+        ],
+        "assistants": [
+            "652451bc7e2b768eb6fefae0",
+            "6524537038f8385756f80faa"
+        ],
+        "points": 7,
+        "isRequired": true,
+        "photo": [
+            "modern",
+            "modern1"
+        ],
+        "description": "History of Modern Era will be taught in the third semester. Student has to pass atleast two tests during the semester to get points."
+    },
+    {
+        "_id": "65258047842a4f2d68411be6",
+        "name": "Basic Data Visualization",
+        "semester": 4,
+        "teachers": [
+            "6524548938f8385756f80fc1"
+        ],
+        "assistants": [
+            "6524537e38f8385756f80fac",
+            "652451bc7e2b768eb6fefae0"
+        ],
+        "points": 8,
+        "isRequired": true,
+        "photo": [
+            "datavis",
+            "datavis1"
+        ],
+        "description": "Basic data visualization will be taught in the fourth semester. Student has to pass atleast five tests during the semester to get points."
+    },
+    {
+        "_id": "65258047842a4f2d68411be7",
+        "name": "Advanced Programming",
+        "semester": 4,
+        "teachers": [
+            "652453bd38f8385756f80fb2"
+        ],
+        "assistants": [
+            "6524537038f8385756f80faa",
+            "6524537e38f8385756f80fac"
+        ],
+        "points": 8,
+        "isRequired": true,
+        "photo": [
+            "advprog",
+            "advprog1"
+        ],
+        "description": "Advanced programming will be taught in the fourth semester. Student has to pass atleast five tests during the semester to get points."
+    },
+    {
+        "_id": "65258047842a4f2d68411be8",
+        "name": "Philosophy",
+        "semester": 4,
+        "teachers": [
+            "652453bd38f8385756f80fb2",
+            "6524548938f8385756f80fc1"
+        ],
+        "assistants": [
+            "652451bc7e2b768eb6fefae0",
+            "6524537038f8385756f80faa"
+        ],
+        "points": 6,
+        "isRequired": true,
+        "photo": [
+            "philos",
+            "philos1"
+        ],
+        "description": "Philosophy will be taught in the fourth semester. Student has to pass atleast one test during the semester to get points."
+    },
+    {
+        "_id": "65258047842a4f2d68411be9",
+        "name": "Marketing",
+        "semester": 5,
+        "teachers": [
+            "652453bd38f8385756f80fb2",
+            "6524548938f8385756f80fc1"
+        ],
+        "assistants": [
+            "6524537e38f8385756f80fac",
+            "652451bc7e2b768eb6fefae0"
+        ],
+        "points": 6,
+        "isRequired": true,
+        "photo": [
+            "marketing",
+            "marketing1"
+        ],
+        "description": "Marketing will be taught in the fifth semester. Student has to pass atleast three tests during the semester to get points."
+    },
+    {
+        "_id": "65258047842a4f2d68411bea",
+        "name": "Basic Machine Learning",
+        "semester": 5,
+        "teachers": [
+            "652453bd38f8385756f80fb2",
+            "6524548938f8385756f80fc1"
+        ],
+        "assistants": [
+            "6524537038f8385756f80faa",
+            "6524537e38f8385756f80fac"
+        ],
+        "points": 6,
+        "isRequired": true,
+        "photo": [
+            "basicmach",
+            "basicmach1"
+        ],
+        "description": "Basic machine learning will be taught in the fifth semester. Student has to pass atleast five tests during the semester to get points."
+    },
+    {
+        "_id": "65258047842a4f2d68411beb",
+        "name": "English Literature",
+        "semester": 5,
+        "teachers": [
+            "652453a638f8385756f80fb0"
+        ],
+        "assistants": [
+            "652451bc7e2b768eb6fefae0",
+            "6524537038f8385756f80faa"
+        ],
+        "points": 4,
+        "isRequired": true,
+        "photo": [
+            "eng",
+            "englit1"
+        ],
+        "description": "English literature will be taught in the fifth semester. Student has to pass atleast five tests during the semester to get points."
+    },
+    {
+        "_id": "65258047842a4f2d68411bec",
+        "name": "Basic Chemistry",
+        "semester": 6,
+        "teachers": [
+            "652453a638f8385756f80fb0"
+        ],
+        "assistants": [
+            "6524537e38f8385756f80fac",
+            "652451bc7e2b768eb6fefae0"
+        ],
+        "points": 6,
+        "isRequired": true,
+        "photo": [
+            "chem",
+            "chem1"
+        ],
+        "description": "Basic chemistry will be taught in the sixth semester. Student has to pass atleast two tests during the semester to get points."
+    },
+    {
+        "_id": "65258047842a4f2d68411bed",
+        "name": "Advanced Machine Learning",
+        "semester": 6,
+        "teachers": [
+            "652453a638f8385756f80fb0"
+        ],
+        "assistants": [
+            "6524537038f8385756f80faa",
+            "6524537e38f8385756f80fac"
+        ],
+        "points": 8,
+        "isRequired": true,
+        "photo": [
+            "advmach",
+            "advmach1"
+        ],
+        "description": "Advanced machine learning will be taught in the sixth semester. Student has to pass atleast five tests during the semester to get points."
+    },
+    {
+        "_id": "65258047842a4f2d68411be3",
+        "name": "Sys Administration",
+        "semester": 6,
+        "teachers": [
+            "6524539338f8385756f80fae"
+        ],
+        "assistants": [
+            "652451bc7e2b768eb6fefae0",
+            "6524537e38f8385756f80fac"
+        ],
+        "points": 10,
+        "isRequired": true,
+        "photo": [
+            "sys",
+            "sys1"
+        ],
+        "description": "Sys Administration will be taught in the sixth semester. Student has to pass atleast six tests during the semester to get points."
+    }
+]
