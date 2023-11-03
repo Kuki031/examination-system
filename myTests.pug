@@ -1,0 +1,15 @@
+extends base
+block content
+    input.search__input#search-test(type="text" placeholder="Search for tests" autocomplete="off")
+    .my-tests-div
+        each test in me.submittedTests
+            div
+                h3= `${test.name}`
+                if test.answer === ''
+                    p(style="color: rgb(238, 47, 47);")= `You submitted an empty sheet.`
+                else
+                    each question,i in test.questions
+                        p(style="color: rgb(247, 237, 237)")= `${question}`
+                    h2= `Your answers (expand to see)`
+                    textarea(style="opacity: 1;font-color:black;background-color:white;" disabled)(cols="50" rows="10")= `${test.answer}`
+                h3= `Grade: ${test.graded === 'false' ? 'Not graded yet.' : test.graded}`

@@ -1,0 +1,8 @@
+extends base
+block content
+    input.search__input(type="text" placeholder="Search for teacher" id="search__teacher")
+    .main__teacherlist
+        each teacher,i in teachers
+            div(style="margin: 20px;padding: 20px;")
+                a(href=`/teachers/${teacher.pin}`)= `${teacher.firstName} ${teacher.lastName}`
+                img(style=`border:2px solid rgba(245, 237, 237, 0.836);background-image: url('/img/users/${teacher.photo}.jpg');width: 75px; height:75px; background-size:cover;background-repeat:no-repeat; display:flex;flex-wrap:wrap;flex-direction:row`)

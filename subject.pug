@@ -1,0 +1,40 @@
+extends base
+block content
+    body(style=`background-image: url('/img/backgrounds/${subject.photo[1]}.jpg')`)
+        .main__subject
+            a.back(href="/" style="font-size: 25px")= `All subjects`
+            .main__info
+                h1= subject.name
+                h2= `Semester: ${subject.semester}`
+                h2= `Points: ${subject.points}`
+                h2= `Teachers`
+                div(style="display:flex;flex-wrap:wrap;flex-direction:row")
+                    each t,i in subject.teachers
+                        div.onsub
+                            a.teacher__link(href=`/teachers/${subject.teachers[i].pin}`)
+                                img(style="background-size:cover;background-repeat:no-repeat;width:75px;border:2px solid whitesmoke;margin:10px;" src=`/img/users/${t.photo}.jpg`)
+                h3= `Assistants`
+                div(style="display:flex;flex-wrap:wrap;flex-direction:row")
+                    each a,i in subject.assistants
+                        div.onsub
+                            a.teacher__link(href=`/teachers/${subject.assistants[i].pin}`)
+                                img(style="background-size:cover;background-repeat:no-repeat;width:75px;border:2px solid whitesmoke;margin:10px;" src=`/img/users/${a.photo}.jpg`)
+                h4= `Required: ${subject.required === false ? 'No❌' : 'Yes✔️'}`
+            .desc
+                p= `${subject.description}`
+            if user.role === 'teacher'
+                .desc
+                    h3= `${user.firstName}, you can manage the tests by going on your profile!`
+            if user.role === 'student'
+                .desc
+                    h3= `Available tests for ${subject.name}`
+                    each test,i in subject.availableTests
+                        -const match = user.lockedTests.find(x => x === subject.availableTests[i].id)
+                        if match
+                            a.a-test.hide-test= `✔️SUBMITTED: ${subject.availableTests[i].testName}`
+                        if !match && !test.isLocked
+                            a.a-test.show-test(href=`/tests/${test.id}`)= `${subject.availableTests[i].testName}`
+                        if !match && test.isLocked
+                            a.a-test.hide-test= `🔒LOCKED: ${subject.availableTests[i].testName}`
+                        
+
