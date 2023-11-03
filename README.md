@@ -56,7 +56,9 @@ Updating the test:
 ![m](https://github.com/Kuki031/examination-system/assets/131341818/14867b83-e118-42f1-97a8-1de937864d72)
 
 TODO: -FIX ERROR HANDLING
+
 TODO: -FIX RESPONSIVITY
+
 TODO: -ADD START DATE AND TIME FOR TEST
 
 
