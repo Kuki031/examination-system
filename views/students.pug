@@ -1,8 +1,0 @@
-extends base
-block content
-    .all-students
-        each student in students
-            div.student-div
-                - const photoExists = student.photo !== 'Photo is not provided.' ? student.photo : 'default'
-                img(style="width: 90px;border:2px solid whitesmoke;" src=`/img/users/${photoExists}.jpg`)
-                p= `${student.firstName} ${student.lastName}`

@@ -1,8 +1,0 @@
-extends base
-block content
-    .test-div-list
-        each subject in subjects
-            div
-                h3= `${subject.name}`
-                each test in subject.availableTests
-                    a.newTest(href=`/update-test/${test.id}`)= test.testName
