@@ -30,6 +30,7 @@ API documentation: https://documenter.getpostman.com/view/29068541/2s9YXe84q6
 
 
 This application allows you to sign up and log in.
+Password for all of the users imported in the database from .json file is: testpass123456
 
 
 You can sign up as a student and participate in the examination process
