@@ -8,6 +8,7 @@ Steps to run this application:
 
 
 2.) Create config.env file in the root directory and populate it the way below
+
 	NODE_ENV=development
  
 	DB_CONNECT=YOUR_MONGODB_CONNECTION_STRING
